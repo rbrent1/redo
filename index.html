@@ -3,18 +3,23 @@
 <html>
 <head>
 
-  <meta charset="utf-8" />
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
   <title>Sushi Maru</title>
 
   <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
 
 </head>
 
 <body>
+  
       
       <div class="ui grid page">
     
@@ -22,27 +27,41 @@
    <div id="box">
     <img id="img" src="img/logo.png" alt="" />
    </div>
+
+    <nav class="first">
+      <ul>
+        <a href="#one">Pricing</a>
+        <a href="#two">Menu</a>
+        <a href="#three">Contact</a>
+        <a href="#four">Map</a>
+      </ul>
+    </nav>
    
+   <img id="top" src="img/top.png">
+
+   <br></br>
+
+   <h1><b>Explore the Freshness</b></h1>
       
 
 <!-- Menu -->
 
-<img id="front" src="img/front.png" alt="" />
-
+    
     <div class="column four wide">
+      <article>
+      <section id="one">
       <h2>Pricing</h2>
 
       <p>Prices are determined by plate color, e.g. a yellow plate is $1.50. </p>
-
       <ul>
       <li>$1.50 - Yellow</li>
       <li>$2.25 - Light Blue</li>
       <li>$2.75 - Red</li>
       <li>$3.50 - Green</li>
       </ul>
+    </section>
     </div>
-
-
+  
     
     <div id="categories" class="column three wide">
       <h2>Categories</h2>
@@ -60,9 +79,12 @@
 
 
 
+    <section id="two">
       <h2>Menu Items</h2>
 
-    <div class="column four wide">
+   
+
+    <div class="column two wide">
       <h3>Spiral Ecstasy Roll</h3>
     
     <div class="ui fade reveal">
@@ -71,12 +93,11 @@
       <li>Contains Raw Fish </li>
       <li>Shrimp, crab stick and avocado rolled with salmon, yellowtail and tuna</li></ul>
       <img class="visible content yellow" src="img/spiral.png" alt="" /> 
-  </div>
 </div>
 
   
 
-    <div class="column four wide">
+    <div class="column two wide">
       <h3>Big Tempura Maki</h3>
 
     <div class="ui fade reveal">
@@ -85,7 +106,9 @@
       <li>Shrimp, crab stick, chef’s choice of fish and avocado batter fried together and wrapped in rice and nori</li></ul>
       <img class="visible content yellow" src="img/tempura.png" alt="" />
     </div>
-    </div>
+    
+
+ 
 
     
 
@@ -112,6 +135,8 @@
     </div>
     </div>
 
+    
+
 
     <div class="column four wide">
       <h3>Scallop Banzai Roll</h3>
@@ -124,6 +149,7 @@
       <img class="visible content red" src="img/scallop.png" alt="" />
       </div>
     </div>
+
 
     <div class="column four wide">
       <h3>Tuna Rio</h3>
@@ -164,14 +190,15 @@
       </div>
     </div>
 
-    <br></br>
+</section>
 
-    <div class="line-separator"></div>
+    
 
     
     
     <!-- Contact -->
     <div id="contact" class="column four wide">
+      <section id="three">
       <h2>Contact</h2>
 
         <p>Have any questions, comments or concerns? Contact us here at Sushi Maru.</p>
@@ -180,7 +207,7 @@
         Spokane, WA 99201
         Phone (509) 455-3900
         <a href="mailto:maruspokane@gmail.com">maruspokane@gmail.com</a></p>
-      
+      </section>
     </div>
   
 
@@ -188,14 +215,18 @@
 
  
     <div id="map" class="column four wide ">
+      <section id="four">
       <h2>Map</h2>
            <p> Wanna visit Sushi Maru? Click the link below for a virtual map to find directions from your current location.
             <a href="https://goo.gl/maps/wGXZR">Google Map of Sushi Maru</a>
+            </section>
     </div>
 
+</div>
 
 
 
+</article>
 
   
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>

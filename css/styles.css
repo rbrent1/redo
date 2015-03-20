@@ -1,17 +1,47 @@
 body {
-	background: rgb(80, 80, 80);
+	background: url("../img/simple_dashed.png");
 }
 
-h1, h2, h3, h4, h5 {
+
+/* Naviagation */
+.first {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	margin-top: -65px;
+	text-align: right;	
+	margin-right: 52px;
+}
+
+
+.first a {
+	color: black;
+	padding: 13px;
+}
+
+.first a:hover {
+	color: red;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
 	color: white;
+	margin-top: 10px;
+	font-size: 2.5rem;
+}
+
+ h2, h3, h4, h5 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
 }
 
 li {
 	color: white;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
 	color: white;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* Colored Lines for Images*/
@@ -68,11 +98,6 @@ p {
 
 }
 
-#front {
-	float: right;
-	margin-top: -123px;
-	margin-right: 50px;
-}
 
 #img {
 	margin-left: -14px;
@@ -90,3 +115,23 @@ p {
 	margin-left: 200px;
 }
 
+
+section {
+  background: fff;
+  height: 70px;
+  overflow: hidden;
+}
+
+/* Last Frame */
+section:target {
+  background: yellow;
+  height: 300px;
+  
+  transition: background, height, 1s;
+}
+
+
+#top {
+	width: 1110px;
+	height: auto;
+}
