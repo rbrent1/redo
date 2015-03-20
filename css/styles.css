@@ -1,0 +1,92 @@
+body {
+	background: rgb(80, 80, 80);
+}
+
+h1, h2, h3, h4, h5 {
+	color: white;
+}
+
+li {
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+/* Colored Lines for Images*/
+
+.yellow {
+	border-top: solid yellow;
+	height: 230px;
+}
+
+.blue {
+	border-top: solid lightblue;
+	height: 230px;
+}
+
+.red {
+	border-top: solid red;
+	height: 230px;
+}
+
+.green {
+	border-top: solid green;
+	height: 230px;
+}
+
+
+.article {
+	text-align: center;
+}
+
+
+
+.column, .five, .wide {
+	text-align: center;
+}
+
+.visible, .content {
+  width: 230px;
+  height: 200px;
+}
+
+#box {
+    width: 1085px;
+    margin: 25px;
+    margin-left: 10px;
+    margin-top: 75px;
+    background: white;
+}
+
+.line-separator{
+	width: 1083px;
+	height: 3px;
+	background: rgb(167, 167, 167);
+	margin-left: 14px
+
+}
+
+#front {
+	float: right;
+	margin-top: -123px;
+	margin-right: 50px;
+}
+
+#img {
+	margin-left: -14px;
+}
+
+#categories {
+	margin-left: 100px;
+}
+
+#map {
+	margin-left: 220px;
+}
+
+#contact {
+	margin-left: 200px;
+}
+
